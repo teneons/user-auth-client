@@ -13,7 +13,9 @@ export default class SignIn extends Component {
 
     return (
       <form>
-        <span className='display-6 text-white'>Sign <span className="badge bg-white text-secondary">In</span></span>
+        <div className='d-flex justify-content-center m-2'>
+          <span className='display-6 text-white'>Sign <span className="badge bg-white text-secondary">In</span></span>
+        </div>
         <div className="mt-3 form-floating">
           <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Email address" />
           <label htmlFor="floatingInputGrid">Email address</label>

@@ -7,17 +7,18 @@ export default class Body extends Component {
 
     return (
       <div className='container-fluid bg-light d-flex justify-content-center align-items-center' style={{ height: '100vh' }}>
-        <div class="accordion accordion-flush container rounded bg-secondary col-6" id="accordionFlushExample">
+       
+        <div class="accordion accordion-flush container rounded bg-secondary col-5 shadow-lg" id="accordionFlushExample">
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <button class="accordion-button collapsed fw-bold" type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                 Hello
               </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
               <div className='d-flex justify-content-center'>
-                <div class="accordion-body col-9">
+                <div class="accordion-body col-10">
                   Hello
                 </div>
               </div>
@@ -26,13 +27,13 @@ export default class Body extends Component {
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <button class="accordion-button collapsed fw-bold" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                 Sign In
               </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
               <div className='d-flex justify-content-center'>
-                <div class="accordion-body col-7">
+                <div class="accordion-body col-8">
                   <SignIn />
                 </div>
               </div>
