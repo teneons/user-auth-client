@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import SignIn from '../SignIn/SignIn';
 
 export default class Body extends Component {
 
@@ -7,13 +7,13 @@ export default class Body extends Component {
 
     return (
       <div className='container-fluid bg-light d-flex justify-content-center align-items-center' style={{height: '100vh'}}>
-        <div className='bg-secondary container d-flex justify-content-evenly'>
-          <div class="row">
-            <div class="col-sm">
+        <div className='container rounded bg-secondary'>
+          <div className="row">
+            <div className="col-sm">
               Hello
             </div>
-            <div class="col-sm">
-              Login
+            <div className="col-sm">
+              <SignIn />
             </div>
           </div>
         </div>
