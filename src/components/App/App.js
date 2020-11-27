@@ -1,7 +1,9 @@
+import Body from '../Body/Body';
+
 function App() {
   return (
     <div className="App">
-      <h1>use auth</h1>
+      <Body />
     </div>
   );
 }
